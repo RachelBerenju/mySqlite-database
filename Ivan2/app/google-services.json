@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "559221076732",
+    "firebase_url": "https://grid-74e87.firebaseio.com",
+    "project_id": "grid-74e87",
+    "storage_bucket": "grid-74e87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559221076732:android:8b174458c42f38ab",
+        "android_client_info": {
+          "package_name": "com.fwbananas.ivan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI1xCKkmDxCF_h8CzfxfHDHgMd1vEVc80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559221076732-66mdurhdcso4p368stqmag7o4ensidi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Android Simple list</string>
+    <string-array name="majina">
+        <item>King</item>
+        <item>Ann</item>
+        <item>Ray</item>
+        <item>Lucy</item>
+        <item>Wanya</item>
+        <item>Wambui</item>
+        <item>Esther</item>
+        <item>Collo</item>
+        <item>Kibe</item>
+        <item>Steve</item>
+        <item>Alex</item>
+        <item>Brandon</item>
+        <item>Marvin</item>
+        <item>Olivia</item>
+    </string-array>
+</resources>

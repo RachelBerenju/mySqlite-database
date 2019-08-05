@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android project Three</string>
+    <string name="title">Register to proceed</string>
+    <string name="hintname">Name Here</string>
+    <string name="hintmail">Email Here</string>
+    <string name="hintphone">Phone number Here</string>
+    <string name="hintpass">Password Here</string>
+</resources>

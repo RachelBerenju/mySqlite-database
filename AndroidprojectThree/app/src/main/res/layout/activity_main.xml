@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/image"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+
+    <EditText
+        android:textSize="30sp"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/txtcolor"
+        android:background="@color/edtbgcolor"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/edtName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_marginStart="100dp"
+        android:textSize="30sp"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/txtcolor"
+        android:background="#ebf2fa"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/edtmail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintmail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginStart="100dp"
+        android:textSize="30sp"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/txtcolor"
+        android:background="@color/edtbgcolor"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/edtPhone"
+        style="@android:style/Widget.Material.Light.AutoCompleteTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintphone"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_marginStart="100dp"
+        android:textSize="30sp"
+        android:textColorHint="@color/hintcolor"
+        android:textColor="@color/txtcolor"
+        android:background="#ebf2fa"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/edtPass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintpass"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@color/edtbgcolor"
+            android:id="@+id/btnlog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
+
+        <Button
+            android:background="@color/edtbgcolor"
+            android:id="@+id/btnreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register" />
+    </LinearLayout>
+</LinearLayout>

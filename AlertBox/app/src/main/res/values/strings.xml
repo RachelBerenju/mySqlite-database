@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alert Box</string>
+    <string name="dialog_message">Do you want to close this App?</string>
+    <string name="dialog_title">Close app</string>
+</resources>

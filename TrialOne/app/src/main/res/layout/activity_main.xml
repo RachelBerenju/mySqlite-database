@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#ff00ff"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="#0dff00"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="italic|bold"
+        android:id="@+id/tvOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fw bananas" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/banana" />
+
+    <Button
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="20dp"
+        android:background="#fff701"
+        android:textColor="#112233"
+        android:textSize="30sp"
+        android:id="@+id/btnOne"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="20dp"
+        android:background="#fff701"
+        android:textColor="#112233"
+        android:textSize="30sp"
+        android:id="@+id/btnTwo"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+
+</LinearLayout>

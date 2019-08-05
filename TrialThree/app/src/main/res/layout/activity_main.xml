@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="#ff00cc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:background="#848484"
+            android:paddingLeft="50dp"
+            android:textColor="#fffb02"
+            android:textColorHint="#00ff22"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtNameOne"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:background="#848484"
+            android:paddingLeft="50dp"
+            android:textColor="#fffb02"
+            android:textColorHint="#00ff22"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/edtNameTwo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Second Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:background="#848484"
+            android:paddingLeft="50dp"
+            android:textColor="#fffb02"
+            android:textColorHint="#00ff22"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/edtNameThree"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:background="#848484"
+            android:paddingLeft="50dp"
+            android:textColor="#fffb02"
+            android:textColorHint="#00ff22"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/edtMail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:background="#848484"
+            android:paddingLeft="50dp"
+            android:textColor="#fffb02"
+            android:textColorHint="#00ff22"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+
+            android:background="#848484"
+            android:paddingLeft="50dp"
+            android:textColor="#fffb02"
+            android:textColorHint="#00ff22"
+            android:textStyle="italic|bold"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Phone number"
+            android:inputType="phone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:background="#ff0004"
+                android:id="@+id/btnOne"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Login" />
+
+            <Button
+                android:background="#00fff2"
+                android:id="@+id/btnTwo"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Submit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

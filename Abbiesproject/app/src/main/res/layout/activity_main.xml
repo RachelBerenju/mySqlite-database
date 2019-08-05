@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#f5f4f2"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/tv-_One"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello King"
+        android:textColor="#a0f114"
+        android:textSize="50sp" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#7e0af2"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:id="@+id/tv_Two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the first Android class" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#763"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="welcome home"
+        android:background="#6237"
+        android:textColor="#643"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#683"
+        android:textSize="50sp"
+        android:textColor="#782"
+        android:id="@+id/btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="btn1" />
+
+</LinearLayout>

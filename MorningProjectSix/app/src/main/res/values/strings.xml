@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Morning Project Six</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_register">Register</string>
+    <string name="action_login">Login</string>
+</resources>

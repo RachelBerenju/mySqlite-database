@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">afternoonproject9</string>
+    <string-array name="madarak">
+        <item>select user priviledge</item>
+        <item>admin</item>
+        <item>accountant</item>
+        <item>bursar</item>
+        <item>director</item>
+        <item>finance manager</item>
+        <item>student</item>
+        <item>registrer</item>
+        <item>dean</item>
+        <item>dean</item>
+        <item>store keeper</item>
+
+    </string-array>
+</resources>
